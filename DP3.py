@@ -13,7 +13,6 @@ st.set_page_config(
     page_title="VIP视频在线播放器",
     page_icon="🎬",
     layout="wide",
-    initial_sidebar_state="expanded",
     initial_sidebar_state="expanded"
 )
 
@@ -585,3 +584,4 @@ if 'video_info' not in st.session_state:
 
 if __name__ == "__main__":
     main()
+
